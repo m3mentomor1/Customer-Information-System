@@ -26,33 +26,6 @@ public class Customer {
 	private String email;
 	private String address;
 
-    // Add these if Lombok is not working
-    public Long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
+	
 	
 }
