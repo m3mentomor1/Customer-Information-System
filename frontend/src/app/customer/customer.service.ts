@@ -14,4 +14,8 @@ export class CustomerService {
   fetchAllCustomers(): Observable<Customer[]> {
     return this._httpClient.get<Customer[]>(`${this.baseUrl}`);
   }
+
+  createCustomer(data: Customer) {
+    return this._httpClient.post<Customer>(`${this.baseUrl}`, data);
+  }
 }
